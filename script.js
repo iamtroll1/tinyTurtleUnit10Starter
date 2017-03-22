@@ -11,21 +11,23 @@ forward(50);
 right(90);
 forward(50);
 }
-function triangle(){
-    foward(50);
+function triangle(size){
+    forward(size);
     right(120);
-    forward(50);
+    forward(size);
     right(120);
-    foward(50);
+    forward(size);
+    right(120);
+    
 }
 
-function house();
-foward(150);
+function house(){
+forward(150);
 right(30);
 left(30);
-foward(150);
+forward(150);
+}
 // Type your function call below
-triangle();
+triangle(200);
 house();
-square();
 stamp();
